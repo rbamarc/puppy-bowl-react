@@ -14,7 +14,7 @@ function App() {
       <Router>
         <Header/>
         <Routes>
-          <Route exact path="/" element={<PlayerList />} />
+          <Route exact path="/puppy-bowl-react" element={<PlayerList />} />
           <Route path="/pup/:id" element={<PlayerDetails/>}/>
           <Route path="/add" element={<AddPlayer/>}/>
         </Routes>
