@@ -6,7 +6,7 @@ export default function Header() {
     return (
         <Navbar bg="light" expand="lg">
             <Navbar.Brand>
-                <Link to="/puppy-bowl-react" style={{ color: 'white', textDecoration: 'none' }}>Puppy Bowl</Link>
+                <Link to="/puppy-bowl-react" style={{ color: 'black', textDecoration: 'none' }}>Puppy Bowl</Link>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
