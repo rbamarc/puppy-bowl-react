@@ -1,10 +1,13 @@
 import { Navbar, Nav, Button } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
+import { Link } from 'react-router-dom';
 
 export default function Header() {
     return (
         <Navbar bg="light" expand="lg">
-            <Navbar.Brand>Puppy Bowl</Navbar.Brand>
+            <Navbar.Brand>
+                <Link to="/puppy-bowl-react" style={{ color: 'white', textDecoration: 'none' }}>Puppy Bowl</Link>
+            </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">

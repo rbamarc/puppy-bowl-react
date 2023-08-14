@@ -7,7 +7,7 @@ export default function DeletePlayer({id}) {
         await fetch(`https://fsa-puppy-bowl.herokuapp.com/api/2302-acc-pt-web-pt-e/players/${id}`, {
             method: 'DELETE',
         })
-        navigate('/')
+        navigate('/puppy-bowl-react')
     }
     return (
         <button onClick={handleDelete}>Delete</button>
