@@ -21,7 +21,7 @@ export default function AddPlayer() {
         })
 
         if (response.ok) {
-            navigate('/')
+            navigate('/puppy-bowl-react')
         }
         console.log(newPlayer)
     }
